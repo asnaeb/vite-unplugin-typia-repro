@@ -8,7 +8,7 @@ import {MyType2} from "@/types2/mytype2";
 import {MyType3} from "./types3/mytype3";
 
 console.log(
-  "Path relative to baseUrl: import from \"src/types/mytype\", expected to be",
+  "Path relative to tsconfig.compilerOptions.baseUrl: import from \"src/types/mytype\", expected to be",
   false,
   "while returned",
   typia.is<MyType>(null),
